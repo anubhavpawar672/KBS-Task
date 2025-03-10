@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 >Calculator</h1>
+    <div class="calc">
+        <div class="disp">
+            <p id="display">_</p>
+        </div>
+        <div style="height: 40px; display: flex;align-items: center;">
+            <p>CASIO fx-991EX</p>
+        </div>
+        <div class="row">
+            <button class="btn" onclick="eq('log(')">log(</button>
+            <button class="btn" onclick="eq('fact(')">fact(</button>
+            <button class="btn" onclick="DEL()">DEL</button>
+            <button class="btn" onclick="AC()">AC</button>
+        </div>
+        <div class="row">
+            <button class="btn" onclick="eq('(')">(</button>
+            <button class="btn" onclick="eq(')')">)</button>
+            <button class="btn" onclick="eq('%')">%</button>
+            <button class="btn" onclick="eq('^')">^</button>
+        </div>
+        <div class="row">
+            <button class="btn" onclick="eq('7')">7</button>
+            <button class="btn" onclick="eq('8')">8</button>
+            <button class="btn" onclick="eq('9')">9</button>
+            <button class="btn" onclick="eq('/')">/</button>
+        </div>
+        <div class="row">
+            <button class="btn" onclick="eq('4')">4</button>
+            <button class="btn" onclick="eq('5')">5</button>
+            <button class="btn" onclick="eq('6')">6</button>
+            <button class="btn" onclick="eq('*')">*</button>
+        </div>
+        <div class="row">
+            <button class="btn" onclick="eq('1')">1</button>
+            <button class="btn" onclick="eq('2')">2</button>
+            <button class="btn" onclick="eq('3')">3</button>
+            <button class="btn" onclick="eq('-')">-</button>
+        </div>
+        <div class="row">
+            <button class="btn" onclick="eq('.')">.</button>
+            <button class="btn" onclick="eq('0')">0</button>
+            <button class="btn" onclick="solve()">=</button>
+            <button class="btn" onclick="eq('+')">+</button>
+        </div>
+    </div>
+</body>
+</html>
